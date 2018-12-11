@@ -1,0 +1,37 @@
+.jumbotron {
+	background-image: url(jumbotronBackground.jpg);
+	background-position: center;
+	background-size: cover;
+    max-width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: inherit;
+    background-color: orange;
+}
+.jumbotron h1 {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-left: none;
+    padding-top: none;
+    margin-top: none;
+}
+.jumbotron p {
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding-left:40px;
+}
+
+#words{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#learn{
+	display: flex;
+	justify-content: space-around;
+}
